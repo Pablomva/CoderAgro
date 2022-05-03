@@ -1,3 +1,8 @@
 from django.contrib import admin
+from .models import AsesorTecnico, Productor, AgroComercio
 
-# Register your models here.
+admin.site.register(Productor)
+admin.site.register(AsesorTecnico)
+admin.site.register(AgroComercio)
+
+
